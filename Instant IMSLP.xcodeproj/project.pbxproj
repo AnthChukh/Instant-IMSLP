@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928C66342D155758001E49B4 /* Instant IMSLP Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 928C66332D155758001E49B4 /* Instant IMSLP Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		928C663E2D155758001E49B4 /* Instant IMSLP Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 928C663D2D155758001E49B4 /* Instant IMSLP Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928C66352D155758001E49B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928C65F92D155756001E49B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928C66322D155758001E49B4;
+			remoteInfo = "Instant IMSLP Extension (iOS)";
+		};
+		928C663F2D155758001E49B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928C65F92D155756001E49B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928C663C2D155758001E49B4;
+			remoteInfo = "Instant IMSLP Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		928C66672D155758001E49B4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				928C66342D155758001E49B4 /* Instant IMSLP Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66712D155758001E49B4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				928C663E2D155758001E49B4 /* Instant IMSLP Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		928C66152D155758001E49B4 /* Instant IMSLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instant IMSLP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928C66272D155758001E49B4 /* Instant IMSLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instant IMSLP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928C66332D155758001E49B4 /* Instant IMSLP Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Instant IMSLP Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928C663D2D155758001E49B4 /* Instant IMSLP Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Instant IMSLP Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		928C66622D155758001E49B4 /* Exceptions for "Shared (App)" folder in "Instant IMSLP (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 928C66142D155758001E49B4 /* Instant IMSLP (iOS) */;
+		};
+		928C66662D155758001E49B4 /* Exceptions for "iOS (Extension)" folder in "Instant IMSLP Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 928C66322D155758001E49B4 /* Instant IMSLP Extension (iOS) */;
+		};
+		928C666B2D155758001E49B4 /* Exceptions for "iOS (App)" folder in "Instant IMSLP (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 928C66142D155758001E49B4 /* Instant IMSLP (iOS) */;
+		};
+		928C666C2D155758001E49B4 /* Exceptions for "Shared (App)" folder in "Instant IMSLP (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 928C66262D155758001E49B4 /* Instant IMSLP (macOS) */;
+		};
+		928C66702D155758001E49B4 /* Exceptions for "macOS (Extension)" folder in "Instant IMSLP Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 928C663C2D155758001E49B4 /* Instant IMSLP Extension (macOS) */;
+		};
+		928C66752D155758001E49B4 /* Exceptions for "Shared (Extension)" folder in "Instant IMSLP Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 928C66322D155758001E49B4 /* Instant IMSLP Extension (iOS) */;
+		};
+		928C66762D155758001E49B4 /* Exceptions for "Shared (Extension)" folder in "Instant IMSLP Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 928C663C2D155758001E49B4 /* Instant IMSLP Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		928C65FD2D155756001E49B4 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				928C66622D155758001E49B4 /* Exceptions for "Shared (App)" folder in "Instant IMSLP (iOS)" target */,
+				928C666C2D155758001E49B4 /* Exceptions for "Shared (App)" folder in "Instant IMSLP (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		928C66062D155758001E49B4 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				928C66752D155758001E49B4 /* Exceptions for "Shared (Extension)" folder in "Instant IMSLP Extension (iOS)" target */,
+				928C66762D155758001E49B4 /* Exceptions for "Shared (Extension)" folder in "Instant IMSLP Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		928C66172D155758001E49B4 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				928C666B2D155758001E49B4 /* Exceptions for "iOS (App)" folder in "Instant IMSLP (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		928C66282D155758001E49B4 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		928C66372D155758001E49B4 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				928C66662D155758001E49B4 /* Exceptions for "iOS (Extension)" folder in "Instant IMSLP Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		928C66412D155758001E49B4 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				928C66702D155758001E49B4 /* Exceptions for "macOS (Extension)" folder in "Instant IMSLP Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928C66122D155758001E49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66242D155758001E49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66302D155758001E49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C663A2D155758001E49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928C65F82D155756001E49B4 = {
+			isa = PBXGroup;
+			children = (
+				928C65FD2D155756001E49B4 /* Shared (App) */,
+				928C66062D155758001E49B4 /* Shared (Extension) */,
+				928C66172D155758001E49B4 /* iOS (App) */,
+				928C66282D155758001E49B4 /* macOS (App) */,
+				928C66372D155758001E49B4 /* iOS (Extension) */,
+				928C66412D155758001E49B4 /* macOS (Extension) */,
+				928C66162D155758001E49B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928C66162D155758001E49B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928C66152D155758001E49B4 /* Instant IMSLP.app */,
+				928C66272D155758001E49B4 /* Instant IMSLP.app */,
+				928C66332D155758001E49B4 /* Instant IMSLP Extension.appex */,
+				928C663D2D155758001E49B4 /* Instant IMSLP Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928C66142D155758001E49B4 /* Instant IMSLP (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928C66682D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP (iOS)" */;
+			buildPhases = (
+				928C66112D155758001E49B4 /* Sources */,
+				928C66122D155758001E49B4 /* Frameworks */,
+				928C66132D155758001E49B4 /* Resources */,
+				928C66672D155758001E49B4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928C66362D155758001E49B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				928C66172D155758001E49B4 /* iOS (App) */,
+			);
+			name = "Instant IMSLP (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Instant IMSLP (iOS)";
+			productReference = 928C66152D155758001E49B4 /* Instant IMSLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928C66262D155758001E49B4 /* Instant IMSLP (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928C66722D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP (macOS)" */;
+			buildPhases = (
+				928C66232D155758001E49B4 /* Sources */,
+				928C66242D155758001E49B4 /* Frameworks */,
+				928C66252D155758001E49B4 /* Resources */,
+				928C66712D155758001E49B4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928C66402D155758001E49B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				928C66282D155758001E49B4 /* macOS (App) */,
+			);
+			name = "Instant IMSLP (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Instant IMSLP (macOS)";
+			productReference = 928C66272D155758001E49B4 /* Instant IMSLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928C66322D155758001E49B4 /* Instant IMSLP Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928C66632D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP Extension (iOS)" */;
+			buildPhases = (
+				928C662F2D155758001E49B4 /* Sources */,
+				928C66302D155758001E49B4 /* Frameworks */,
+				928C66312D155758001E49B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				928C66372D155758001E49B4 /* iOS (Extension) */,
+			);
+			name = "Instant IMSLP Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Instant IMSLP Extension (iOS)";
+			productReference = 928C66332D155758001E49B4 /* Instant IMSLP Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		928C663C2D155758001E49B4 /* Instant IMSLP Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928C666D2D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP Extension (macOS)" */;
+			buildPhases = (
+				928C66392D155758001E49B4 /* Sources */,
+				928C663A2D155758001E49B4 /* Frameworks */,
+				928C663B2D155758001E49B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				928C66412D155758001E49B4 /* macOS (Extension) */,
+			);
+			name = "Instant IMSLP Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Instant IMSLP Extension (macOS)";
+			productReference = 928C663D2D155758001E49B4 /* Instant IMSLP Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928C65F92D155756001E49B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					928C66142D155758001E49B4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					928C66262D155758001E49B4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					928C66322D155758001E49B4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					928C663C2D155758001E49B4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 928C65FC2D155756001E49B4 /* Build configuration list for PBXProject "Instant IMSLP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928C65F82D155756001E49B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 928C66162D155758001E49B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928C66142D155758001E49B4 /* Instant IMSLP (iOS) */,
+				928C66262D155758001E49B4 /* Instant IMSLP (macOS) */,
+				928C66322D155758001E49B4 /* Instant IMSLP Extension (iOS) */,
+				928C663C2D155758001E49B4 /* Instant IMSLP Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928C66132D155758001E49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66252D155758001E49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66312D155758001E49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C663B2D155758001E49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928C66112D155758001E49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66232D155758001E49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C662F2D155758001E49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C66392D155758001E49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		928C66362D155758001E49B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928C66322D155758001E49B4 /* Instant IMSLP Extension (iOS) */;
+			targetProxy = 928C66352D155758001E49B4 /* PBXContainerItemProxy */;
+		};
+		928C66402D155758001E49B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928C663C2D155758001E49B4 /* Instant IMSLP Extension (macOS) */;
+			targetProxy = 928C663F2D155758001E49B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		928C66642D155758001E49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_NAME = "Instant IMSLP Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		928C66652D155758001E49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_NAME = "Instant IMSLP Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928C66692D155758001E49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_NAME = "Instant IMSLP";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		928C666A2D155758001E49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_NAME = "Instant IMSLP";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928C666E2D155758001E49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Instant IMSLP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_NAME = "Instant IMSLP Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		928C666F2D155758001E49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Instant IMSLP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_NAME = "Instant IMSLP Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		928C66732D155758001E49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Instant IMSLP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_NAME = "Instant IMSLP";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		928C66742D155758001E49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Instant IMSLP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7DKLHA48T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Instant IMSLP";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_NAME = "Instant IMSLP";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		928C66772D155758001E49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		928C66782D155758001E49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928C65FC2D155756001E49B4 /* Build configuration list for PBXProject "Instant IMSLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C66772D155758001E49B4 /* Debug */,
+				928C66782D155758001E49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928C66632D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C66642D155758001E49B4 /* Debug */,
+				928C66652D155758001E49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928C66682D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C66692D155758001E49B4 /* Debug */,
+				928C666A2D155758001E49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928C666D2D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C666E2D155758001E49B4 /* Debug */,
+				928C666F2D155758001E49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928C66722D155758001E49B4 /* Build configuration list for PBXNativeTarget "Instant IMSLP (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C66732D155758001E49B4 /* Debug */,
+				928C66742D155758001E49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928C65F92D155756001E49B4 /* Project object */;
+}
