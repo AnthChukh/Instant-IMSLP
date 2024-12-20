@@ -65,6 +65,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
+				AppView.swift,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,
@@ -91,6 +92,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
+				AppView.swift,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,

@@ -6,6 +6,7 @@
 //
 
 import WebKit
+import SwiftUI
 
 #if os(iOS)
 import UIKit
@@ -28,12 +29,29 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
         self.webView.navigationDelegate = self
 
 #if os(iOS)
-        self.webView.scrollView.isScrollEnabled = false
+        self.webView.scrollView.isScrollEnabled = true
 #endif
 
         self.webView.configuration.userContentController.add(self, name: "controller")
 
         self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
+
+        // Embed SwiftUI View
+        let swiftUIView = AppView() // Replace 'AppView' with your SwiftUI view
+#if os(iOS)
+        let hostingController = UIHostingController(rootView: swiftUIView)
+        addChild(hostingController)
+        hostingController.view.frame = view.bounds // Adjust frame as needed
+        hostingController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
+#elseif os(macOS)
+        let hostingController = NSHostingController(rootView: swiftUIView)
+        addChild(hostingController)
+        hostingController.view.frame = view.bounds // Adjust frame as needed
+        view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
+#endif
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -77,5 +95,4 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
         }
 #endif
     }
-
 }
