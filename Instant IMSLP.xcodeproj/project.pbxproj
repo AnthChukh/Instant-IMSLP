@@ -488,7 +488,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE.Extension";
 				PRODUCT_NAME = "Instant IMSLP Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -519,7 +519,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE.Extension";
 				PRODUCT_NAME = "Instant IMSLP Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -558,7 +558,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE";
 				PRODUCT_NAME = "Instant IMSLP";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -599,7 +599,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE";
 				PRODUCT_NAME = "Instant IMSLP";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -636,7 +636,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE.Extension";
 				PRODUCT_NAME = "Instant IMSLP Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -668,7 +668,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE.Extension";
 				PRODUCT_NAME = "Instant IMSLP Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -703,7 +703,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE";
 				PRODUCT_NAME = "Instant IMSLP";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -737,7 +737,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Instant-IMSLPE";
 				PRODUCT_NAME = "Instant IMSLP";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
